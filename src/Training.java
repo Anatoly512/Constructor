@@ -1,7 +1,3 @@
-import com.sun.tools.javac.Main;
-
-import javax.swing.*;
-
 public class Training {
 
     private static int a;
