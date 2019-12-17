@@ -4,18 +4,22 @@ public class Training {
 
     NewClass newClass = new NewClass();
 
+    public Training() {
+
+        System.out.println("\n TRAINING CONSTRUCTOR  \n");
+
+    }
+
     public static void main(String[] args) {
 
         NewClass myConstructor = new NewClass();
-        Training myO = new Training();
+     // new NewClass();
 
-      //  new NewClass();
-      //  NewClass.NewClass(b);
-      //  NewClass.printMyString();
+        Training myO = new Training();
 
         myO.doMy();
 
-         }
+    }
 
          private void doMy () {
 
